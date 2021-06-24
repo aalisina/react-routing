@@ -19,7 +19,7 @@ export default function App() {
               
               <Route path="/" element={<h1>Welcome to Carved Rock Fitness.</h1>} />
               <Route path="/:category" element={<Products />} />
-              <Route path="/detail" element={<Detail />} />
+              <Route path="/:category/:id" element={<Detail />} />
               <Route path="/cart" element={<Cart />} />
 
             </Routes>
